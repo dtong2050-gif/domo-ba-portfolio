@@ -10,7 +10,7 @@ Kết quả nghiệm thu là căn cứ để PO quyết định phát hành.
 
 | Mục | Nội dung |
 |---|---|
-| Chức năng nghiệm thu | Tra cứu danh sách tài khoản ([`US-011`](06-user-stories/us-011-tra-cuu-danh-sach-tai-khoan.md))<br>Chọn tài khoản cho thao tác quản trị ([`US-012`](06-user-stories/us-012-chon-tai-khoan-cho-thao-tac-quan-tri.md))<br>Đổi vai trò cho một tài khoản ([`US-013`](06-user-stories/us-013-doi-vai-tai-khoan.md)) |
+| Chức năng nghiệm thu | Tra cứu danh sách tài khoản ([`US-011`](06-user-stories/us-011-tra-cuu-danh-sach-tai-khoan.md))<br>Chọn tài khoản cho thao tác quản trị ([`US-012`](06-user-stories/us-012-chon-tai-khoan-cho-thao-tac-quan-tri.md))<br>Đổi vai cho một tài khoản ([`US-013`](06-user-stories/us-013-doi-vai-tai-khoan.md)) |
 | Kênh | Trang quản trị trên web |
 | Nguồn đối chiếu kết quả | Màn hình Quản trị tài khoản, thông báo trong ứng dụng của người bị đổi vai trò, Nhật ký thao tác |
 | Ngoài phạm vi | Vô hiệu hoá và khôi phục tài khoản sau khi bấm "Xác nhận". Chức năng này thuộc một user story khác. `UAT-025` chỉ kiểm tra danh sách tài khoản trong hộp thoại xác nhận vô hiệu hoá, sau đó đóng hộp thoại mà không xác nhận. |
@@ -29,7 +29,7 @@ Kết quả nghiệm thu là căn cứ để PO quyết định phát hành.
 
 **Điều kiện bắt đầu.** Đợt nghiệm thu chỉ bắt đầu khi đáp ứng đủ các điều kiện sau:
 
-1. Toàn bộ ca kiểm thử hệ thống và API của `US-011`, `US-012`, `US-013` đã được thực hiện và đạt.
+1. Toàn bộ [ca kiểm thử hệ thống và API](09-system-api-tests/README.md) của `US-011`, `US-012`, `US-013` đã được thực hiện và đạt.
 2. Không còn lỗi mức Critical hoặc High đang mở thuộc phạm vi tại mục 1.1.
 3. Môi trường nghiệm thu đã cài đặt phiên bản dự kiến phát hành.
 4. Tài khoản và dữ liệu tại mục 3 đã sẵn sàng.
