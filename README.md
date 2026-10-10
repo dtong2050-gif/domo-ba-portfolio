@@ -30,7 +30,7 @@ domo-ba-portfolio/
 │   ├── 06-user-stories/              3 user stories, 50 acceptance criteria
 │   ├── 07-screen-specs/              3 screen specifications
 │   ├── 08-api-spec-extract.md        API specification
-│   ├── 09-uat-test-cases.md          UAT test cases
+│   ├── 09-uat-scenarios.md           UAT scenarios
 │   └── 10-change-decision-log.md     Change and decision log
 ├── diagrams/                         Process diagrams, ERD, stakeholder matrix
 └── mockups/                          Mockups grouped by screen
@@ -48,12 +48,12 @@ domo-ba-portfolio/
 | BA methodologies & documentation | ERD, Data Dictionary | ERD of 3 tables, dictionary of 39 data fields with rules and examples - [05](docs/05-data-dictionary.md) |
 | BA methodologies & documentation | User Stories & Acceptance Criteria (Gherkin) | 3 user stories, 50 Given-When-Then scenarios - [06](docs/06-user-stories/) |
 | BA methodologies & documentation | Screen Specification, API Specification | 3 screens covering every state, with mockups - [07](docs/07-screen-specs/), 4 endpoints with sample requests, responses and error codes - [08](docs/08-api-spec-extract.md) |
-| BA methodologies & documentation | UAT Testing, API Testing | 5 UAT cases covering all 50 scenarios, including steps that call the server directly - [09](docs/09-uat-test-cases.md) |
+| BA methodologies & documentation | UAT Testing | 5 business UAT scenarios run by the operations team through the UI, with entry/exit criteria and sign-off - [09](docs/09-uat-scenarios.md) |
 | BA methodologies & documentation | Requirements Traceability (RTM), Change Request, Decision Log | Two-way traceability from business need to acceptance test - [00](docs/00-traceability-matrix.md), change requests and decisions with the options considered - [10](docs/10-change-decision-log.md) |
 | BA methodologies & documentation | Agile/Scrum | Maintained the backlog and checked the Definition of Ready before sprint planning |
 | Tools | draw.io | 7 diagrams: processes, ERD and stakeholder matrix - [diagrams](diagrams/) |
 | Tools | Figma | 30 mockups for 3 screens and dialogs - [mockups](mockups/) |
-| Tools | Postman | Tested authorization, invalid input and expired sessions directly against the API - [09](docs/09-uat-test-cases.md) |
+| Tools | Postman | Tested authorization, invalid input and expired sessions directly against the API |
 | Tools | SQL (PostgreSQL) | Queried the database to verify fields against the [data dictionary](docs/05-data-dictionary.md) |
 | Tools | GitLab | Document version control |
 
@@ -67,7 +67,7 @@ domo-ba-portfolio/
 | 4 | Model workflows and data, including alternative and exception flows | [04](docs/04-business-processes.md), [05](docs/05-data-dictionary.md) |
 | 5 | Write user stories with acceptance criteria for every scenario | [06](docs/06-user-stories/) |
 | 6 | Specify screens and APIs so design and development work from one description | [07](docs/07-screen-specs/), [08](docs/08-api-spec-extract.md) |
-| 7 | Turn acceptance criteria into test cases with measurable results | [09](docs/09-uat-test-cases.md) |
+| 7 | Define business acceptance scenarios for users to confirm the solution before release | [09](docs/09-uat-scenarios.md) |
 | 8 | Record changes and decisions and keep traceability end to end | [10](docs/10-change-decision-log.md), [00](docs/00-traceability-matrix.md) |
 
 Three principles run through every step: each requirement has its own ID and is traceable both ways; exception flows are specified with the same care as the main flow; every decision is recorded with the rejected options and the reason.

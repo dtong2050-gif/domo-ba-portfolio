@@ -53,8 +53,8 @@ Mỗi mục có mã định danh riêng và được truy vết trong ma trận 
 
 | ID | Tiêu chí | Phát biểu | Cách xác minh | Phục vụ |
 |---|---|---|---|---|
-| `NFR-P-05` | Usability | Khi quản trị viên đang ở màn danh sách tài khoản và chưa được đào tạo riêng, thao tác đổi vai cho một tài khoản không vượt quá **5 thao tác và 60 giây** | Đếm số thao tác và đo thời gian trong đợt nghiệm thu, theo cùng phương pháp đo ngưỡng thao tác đăng nhập hiện hành | `StR-004` |
-| `NFR-P-06` | Compliance | Bản ghi dấu vết thao tác quản trị không được ghi bất kỳ trường định danh nhạy cảm nào, phù hợp với yêu cầu pháp luật Việt Nam về xử lý dữ liệu cá nhân | Rà soát cấu trúc bản ghi trước khi phát hành và kiểm tra bản ghi thực tế trong `UAT-023` | `StR-006` |
+| `NFR-P-05` | Usability | Khi quản trị viên đang ở màn danh sách tài khoản và chưa được đào tạo riêng, thao tác đổi vai cho một tài khoản không vượt quá **5 thao tác và 60 giây** | Đếm số thao tác và đo thời gian trong `UAT-021`, theo cùng phương pháp đo ngưỡng thao tác đăng nhập hiện hành | `StR-004` |
+| `NFR-P-06` | Compliance | Bản ghi dấu vết thao tác quản trị không được ghi bất kỳ trường định danh nhạy cảm nào, phù hợp với yêu cầu pháp luật Việt Nam về xử lý dữ liệu cá nhân | Rà soát cấu trúc bản ghi trước khi phát hành và kiểm tra bản ghi thực tế trong kiểm thử hệ thống | `StR-006` |
 
 ## 4. Business rule
 

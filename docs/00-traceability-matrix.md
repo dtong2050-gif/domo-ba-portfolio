@@ -1,12 +1,12 @@
 # Ma trận truy vết yêu cầu
 
-Ma trận truy vết nối mỗi yêu cầu với nhu cầu nghiệp vụ, user story, màn hình và ca nghiệm thu tương ứng.
+Ma trận truy vết nối mỗi yêu cầu với nhu cầu nghiệp vụ, user story, màn hình và kịch bản nghiệm thu tương ứng.
 Nhờ đó có thể lần theo hai chiều, từ mục tiêu kinh doanh xuống ca kiểm thử và ngược lại, để phát hiện yêu cầu chưa được kiểm thử hoặc không gắn với mục tiêu nào.
-Khi một yêu cầu thay đổi, ma trận cho biết ngay những story, màn hình và ca nghiệm thu cần cập nhật.
+Khi một yêu cầu thay đổi, ma trận cho biết ngay những story, màn hình và kịch bản nghiệm thu cần cập nhật.
 
 ## Tổng quan độ phủ
 
-**4/4 yêu cầu stakeholder đã có ít nhất một ca nghiệm thu (100%).**
+**4/4 yêu cầu stakeholder đã có ít nhất một kịch bản nghiệm thu (100%).**
 
 | Loại | Số lượng | Mã |
 |---|---|---|
@@ -18,7 +18,7 @@ Khi một yêu cầu thay đổi, ma trận cho biết ngay những story, màn 
 | User Story | 3 | `US-011`, `US-012`, `US-013` |
 | Tiêu chí nghiệm thu (SC-) | 50 | — |
 | Màn hình và hộp thoại | 3 | `SCR-002`, `SCR-003`, `SCR-004` |
-| Ca nghiệm thu người dùng | 5 | `UAT-021`, `UAT-022`, `UAT-023`, `UAT-024`, `UAT-025` |
+| Kịch bản nghiệm thu người dùng | 5 | `UAT-021`, `UAT-022`, `UAT-023`, `UAT-024`, `UAT-025` |
 | Yêu cầu thay đổi | 1 | [`CR-001`](10-change-decision-log.md#cr-001--rút-hiệu-lực-cắt-phiên-đang-mở-khỏi-mvp) → `BR-002`, `FR-012` |
 | Quyết định | 2 | [`BD-001`](10-change-decision-log.md#bd-001--ba-vai-trò-gốc-chỉ-được-sửa-bộ-quyền), [`BD-002`](10-change-decision-log.md#bd-002--email-được-cấp-lại-cho-người-khác-vẫn-nhận-tài-khoản-cũ) |
 
@@ -37,8 +37,8 @@ Nguồn: [nhu cầu nghiệp vụ](01-scope-baseline.md#2-mục-tiêu---business
 
 | `US-` | Tiêu đề | `RULE-` | `SCR-` | `UAT-` |
 |---|---|---|---|---|
-| `US-011` | Tra cứu danh sách tài khoản | `RULE-006` | `SCR-002` | `UAT-021`, `UAT-024`, `UAT-025` |
-| `US-012` | Chọn tài khoản cho thao tác quản trị | `RULE-006`, `RULE-007` | `SCR-002` | `UAT-022`, `UAT-024` |
-| `US-013` | Đổi vai cho một tài khoản | `RULE-006`, `RULE-007` | `SCR-002`, `SCR-003`, `SCR-004` | `UAT-023`, `UAT-024`, `UAT-025` |
+| `US-011` | Tra cứu danh sách tài khoản | `RULE-006` | `SCR-002` | `UAT-021`, `UAT-022`, `UAT-024`, `UAT-025` |
+| `US-012` | Chọn tài khoản cho thao tác quản trị | `RULE-006`, `RULE-007` | `SCR-002` | `UAT-024`, `UAT-025` |
+| `US-013` | Đổi vai cho một tài khoản | `RULE-006`, `RULE-007` | `SCR-002`, `SCR-003`, `SCR-004` | `UAT-021`, `UAT-022`, `UAT-023`, `UAT-024` |
 
-Nguồn: [quy tắc nghiệp vụ](03-requirements-and-rules.md#4-business-rule), [user story và tiêu chí nghiệm thu](06-user-stories/), [đặc tả màn hình](07-screen-specs/), [ca nghiệm thu](09-uat-test-cases.md).
+Nguồn: [quy tắc nghiệp vụ](03-requirements-and-rules.md#4-business-rule), [user story và tiêu chí nghiệm thu](06-user-stories/), [đặc tả màn hình](07-screen-specs/), [kịch bản nghiệm thu](09-uat-scenarios.md).
